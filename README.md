@@ -18,7 +18,7 @@
 
 <img src="https://img.shields.io/github/stars/farooqjunejo/IP-Bro?style=social" />
 <img src="https://img.shields.io/github/forks/farooqjunejo/IP-Bro?style=social" />
-<img src="https://img.shields.io/github/license/farooqjunejo/IP-Bro?style=social" />
+<img src="https://img.shields.io/badge/License-MIT-green?style=social" />
 
 </div>
 
