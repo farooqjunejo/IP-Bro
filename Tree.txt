@@ -1,0 +1,39 @@
+ip-bro/
+├── docker-compose.yml
+├── Dockerfile
+├── entrypoint.sh
+├── README.md
+├── docker/
+│   └── nginx/
+│       └── default.conf
+└── src/
+    ├── app/
+    │   ├── Http/Controllers/LookupController.php
+    │   ├── Models/LookupHistory.php
+    │   └── Services/
+    │       ├── BlacklistService.php
+    │       ├── DnsLookupService.php
+    │       ├── HttpHeaderService.php
+    │       ├── InputNormalizerService.php
+    │       ├── PortCheckService.php
+    │       ├── RdapLookupService.php
+    │       └── SslLookupService.php
+    ├── database/
+    │   └── migrations/2026_01_01_000000_create_lookup_histories_table.php
+    ├── resources/
+    │   └── views/
+    │       ├── layouts/app.blade.php
+    │       └── lookup/
+    │           ├── history.blade.php
+    │           ├── index.blade.php
+    │           ├── results.blade.php
+    │           └── partials/
+    │               ├── blacklist.blade.php
+    │               ├── dns.blade.php
+    │               ├── http.blade.php
+    │               ├── overview.blade.php
+    │               ├── ports.blade.php
+    │               ├── raw-json.blade.php
+    │               ├── rdap.blade.php
+    │               └── ssl.blade.php
+    └── routes/web.php
